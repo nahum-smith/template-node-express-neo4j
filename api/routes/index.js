@@ -1,0 +1,1 @@
+exports.companies = require('./companies')

@@ -1,0 +1,37 @@
+{
+  "name": "template-node-express-neo4j",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startApi": "nodemon ./api/bin/www"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config.json": "0.0.4",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http-errors": "^1.7.1",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "method-override": "^3.0.0",
+    "morgan": "^1.9.1",
+    "neo4j-driver": "^1.7.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "swagger-jsdoc": "^3.2.6",
+    "swagger-node-express": "^2.1.3",
+    "swagger-ui-express": "^4.0.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
